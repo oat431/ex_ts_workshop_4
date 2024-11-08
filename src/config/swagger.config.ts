@@ -6,9 +6,9 @@ const swaggerOptions = {
     swaggerDefinition: {
         openapi: '3.0.0',
         info: {
-            title: 'Ex TS API Doc Template',
+            title: 'Movie Management API',
             version: '1.0.0',
-            description: 'Express Typescript API Documentation Template',
+            description: 'Movie Management API Documentation',
         },
         tags: [
             {

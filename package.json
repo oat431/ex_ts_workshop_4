@@ -1,5 +1,5 @@
 {
-    "name": "fourth_ts_class",
+    "name": "typescript-workshop-movie-api",
     "version": "1.0.0",
     "main": "index.js",
     "type": "module",
@@ -18,9 +18,9 @@
     "description": "",
     "dependencies": {
         "express": "^4.21.1",
-        "fourth_ts_class": "file:",
         "swagger-jsdoc": "^6.2.8",
-        "swagger-ui-express": "^5.0.1"
+        "swagger-ui-express": "^5.0.1",
+        "typescript-workshop-movie-api": "file:"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.5.0",
