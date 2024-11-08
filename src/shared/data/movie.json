@@ -1,0 +1,234 @@
+[
+    {
+        "id": 1,
+        "title": "The Grand Adventure",
+        "release": {
+            "year": 2021,
+            "month": 5,
+            "day": 20
+        },
+        "comments": [
+            {
+                "id": 101,
+                "content": "Fantastic movie with breathtaking visuals!",
+                "rate": 5,
+                "createdAt": "2023-11-01T10:00:00.000Z",
+                "updatedAt": "2023-11-01T12:00:00.000Z"
+            },
+            {
+                "id": 102,
+                "content": "Enjoyable but a bit slow in the middle.",
+                "rate": 3,
+                "createdAt": "2023-11-02T09:00:00.000Z",
+                "updatedAt": "2023-11-02T10:30:00.000Z"
+            }
+        ],
+        "createdAt": "2023-01-15T10:00:00.000Z",
+        "updatedAt": "2023-10-15T10:00:00.000Z"
+    },
+    {
+        "id": 2,
+        "title": "Mystery of the Shadows",
+        "release": {
+            "year": 2022,
+            "month": 9,
+            "day": 17
+        },
+        "comments": [],
+        "createdAt": "2023-02-10T15:00:00.000Z",
+        "updatedAt": "2023-09-10T16:00:00.000Z"
+    },
+    {
+        "id": 3,
+        "title": "A Journey Beyond",
+        "release": {
+            "year": 2020,
+            "month": 3,
+            "day": 5
+        },
+        "comments": [
+            {
+                "id": 201,
+                "content": "An unforgettable story.",
+                "rate": 4,
+                "createdAt": "2023-05-05T08:00:00.000Z",
+                "updatedAt": "2023-05-05T08:30:00.000Z"
+            }
+        ],
+        "createdAt": "2023-03-05T11:00:00.000Z",
+        "updatedAt": "2023-08-01T09:30:00.000Z"
+    },
+    {
+        "id": 4,
+        "title": "Science Wonders",
+        "release": {
+            "year": 2023,
+            "month": 7,
+            "day": 1
+        },
+        "comments": [
+            {
+                "id": 301,
+                "content": "Very informative!",
+                "rate": 5,
+                "createdAt": "2023-07-02T14:00:00.000Z",
+                "updatedAt": "2023-07-02T14:00:00.000Z"
+            },
+            {
+                "id": 302,
+                "content": "Great insights on recent discoveries.",
+                "rate": 4,
+                "createdAt": "2023-07-03T10:00:00.000Z",
+                "updatedAt": "2023-07-03T10:00:00.000Z"
+            },
+            {
+                "id": 303,
+                "content": "I wish it covered more topics.",
+                "rate": 3,
+                "createdAt": "2023-07-04T08:00:00.000Z",
+                "updatedAt": "2023-07-04T08:30:00.000Z"
+            }
+        ],
+        "createdAt": "2023-06-15T12:00:00.000Z",
+        "updatedAt": "2023-07-15T12:00:00.000Z"
+    },
+    {
+        "id": 5,
+        "title": "The Hidden Truth",
+        "release": {
+            "year": 2019,
+            "month": 12,
+            "day": 25
+        },
+        "comments": [],
+        "createdAt": "2023-04-10T10:00:00.000Z",
+        "updatedAt": "2023-08-10T10:00:00.000Z"
+    },
+    {
+        "id": 6,
+        "title": "Love in Autumn",
+        "release": {
+            "year": 2018,
+            "month": 10,
+            "day": 15
+        },
+        "comments": [
+            {
+                "id": 401,
+                "content": "Heartwarming and beautiful!",
+                "rate": 5,
+                "createdAt": "2023-10-10T09:00:00.000Z",
+                "updatedAt": "2023-10-10T09:30:00.000Z"
+            },
+            {
+                "id": 402,
+                "content": "Great acting but predictable story.",
+                "rate": 3,
+                "createdAt": "2023-10-11T08:00:00.000Z",
+                "updatedAt": "2023-10-11T08:20:00.000Z"
+            }
+        ],
+        "createdAt": "2023-05-20T15:00:00.000Z",
+        "updatedAt": "2023-10-10T15:30:00.000Z"
+    },
+    {
+        "id": 7,
+        "title": "Heroes of Tomorrow",
+        "release": {
+            "year": 2021,
+            "month": 8,
+            "day": 30
+        },
+        "comments": [
+            {
+                "id": 501,
+                "content": "Non-stop action and excitement!",
+                "rate": 4,
+                "createdAt": "2023-11-01T17:00:00.000Z",
+                "updatedAt": "2023-11-01T17:00:00.000Z"
+            },
+            {
+                "id": 502,
+                "content": "Predictable but fun to watch.",
+                "rate": 3,
+                "createdAt": "2023-11-01T18:00:00.000Z",
+                "updatedAt": "2023-11-01T18:30:00.000Z"
+            }
+        ],
+        "createdAt": "2023-01-10T10:00:00.000Z",
+        "updatedAt": "2023-10-01T10:00:00.000Z"
+    },
+    {
+        "id": 8,
+        "title": "Mysteries Uncovered",
+        "release": {
+            "year": 2020,
+            "month": 6,
+            "day": 10
+        },
+        "comments": [],
+        "createdAt": "2023-05-15T14:00:00.000Z",
+        "updatedAt": "2023-09-01T15:00:00.000Z"
+    },
+    {
+        "id": 9,
+        "title": "The Great Voyage",
+        "release": {
+            "year": 2017,
+            "month": 4,
+            "day": 5
+        },
+        "comments": [
+            {
+                "id": 601,
+                "content": "Amazing journey! Truly inspiring.",
+                "rate": 5,
+                "createdAt": "2023-06-06T09:00:00.000Z",
+                "updatedAt": "2023-06-06T09:00:00.000Z"
+            },
+            {
+                "id": 602,
+                "content": "Could have been shorter.",
+                "rate": 3,
+                "createdAt": "2023-06-07T07:30:00.000Z",
+                "updatedAt": "2023-06-07T08:00:00.000Z"
+            }
+        ],
+        "createdAt": "2023-04-15T16:00:00.000Z",
+        "updatedAt": "2023-07-15T16:00:00.000Z"
+    },
+    {
+        "id": 10,
+        "title": "Echoes of the Past",
+        "release": {
+            "year": 2021,
+            "month": 11,
+            "day": 11
+        },
+        "comments": [
+            {
+                "id": 701,
+                "content": "Great historical depth.",
+                "rate": 4,
+                "createdAt": "2023-08-10T11:00:00.000Z",
+                "updatedAt": "2023-08-10T12:00:00.000Z"
+            },
+            {
+                "id": 702,
+                "content": "Very engaging plot twists!",
+                "rate": 5,
+                "createdAt": "2023-08-12T10:00:00.000Z",
+                "updatedAt": "2023-08-12T10:30:00.000Z"
+            },
+            {
+                "id": 703,
+                "content": "Too long for my taste.",
+                "rate": 2,
+                "createdAt": "2023-08-15T09:00:00.000Z",
+                "updatedAt": "2023-08-15T09:20:00.000Z"
+            }
+        ],
+        "createdAt": "2023-01-20T12:00:00.000Z",
+        "updatedAt": "2023-10-01T12:00:00.000Z"
+    }
+]
