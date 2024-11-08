@@ -1,4 +1,9 @@
 import swaggerJsDoc from 'swagger-jsdoc';
+import MovieDto from '../module/MovieManagement/payload/schema/movie.schema.js';
+import CommentDto from '../module/MovieManagement/payload/schema/comment.schema.js';
+import ResponseDtoMovieDto from '../module/MovieManagement/payload/schema/response.movie.schema.js';
+import ResponseDtoListMovieDto from '../module/MovieManagement/payload/schema/response.list.movie.schema.js';
+import CommentRequest from '../module/MovieManagement/payload/schema/request.comment.schema.js';
 
 const PORT = process.env.PORT || 8080;
 
@@ -14,6 +19,10 @@ const swaggerOptions = {
             {
                 name: 'HealthCheck API',
                 description: 'Endpoints for health-check operations',
+            },
+            {
+                name: 'Movie API',
+                description: 'Endpoints for movie operations',
             },
         ],
         components: {
@@ -39,6 +48,11 @@ const swaggerOptions = {
                         },
                     },
                 },
+                MovieDto: MovieDto,
+                CommentDto: CommentDto,
+                ResponseDtoMovieDto: ResponseDtoMovieDto,
+                ResponseDtoListMovieDto: ResponseDtoListMovieDto,
+                CommentRequest: CommentRequest,
             },
         },
         servers: [
@@ -47,7 +61,7 @@ const swaggerOptions = {
             },
         ],
     },
-    apis: ['./src/module/HealthCheck/router/*.ts'], // files containing annotations as above
+    apis: ['./src/module/HealthCheck/router/*.ts', './src/module/MovieManagement/router/*.ts'], // files containing annotations as above
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
